@@ -1,0 +1,42 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .dashboard-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 30px;
+        margin: 20px;
+    }
+}
+
+
+/* Individual item styling (example) */
+
+.dashboard-item {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .dashboard-item {
+        width: calc(50% - 40px);
+        /* Two items per row with margin */
+    }
+}
+
+@media (min-width: 1200px) {
+    .dashboard-item {
+        width: calc(33.33% - 40px);
+        /* Three items per row with margin */
+    }
+}
