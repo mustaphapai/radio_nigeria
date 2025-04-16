@@ -107,7 +107,7 @@ const RecordUpload = () => {
                     <div>
                         <h2 className="text-sm font-bold truncate">Upload Program</h2>
                         <p className="text-xs font-normal text-gray-500 truncate">
-                            Add your radio program recordings here
+                            Upload your  programs to the studio.
                         </p>
                     </div>
                 </CardTitle>

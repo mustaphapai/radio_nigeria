@@ -4,7 +4,7 @@ import RecordUpload from './RecordUpload';
 import Conversion from './Conversion';
 import '../styles/Dashboard.css';
 import Avatar from '@mui/material/Avatar';
-import { deepOrange } from '@mui/material/colors';
+import { deepOrange, deepPurple } from '@mui/material/colors';
 import { Typography, Card, CardContent, Box } from '@mui/material';
 import { User } from 'lucide-react';
 
@@ -14,12 +14,12 @@ const Dashboard = () => {
       <Card className="user-profile-card">
         <CardContent>
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-            <Avatar sx={{ bgcolor: deepOrange[500], width: 56, height: 56 }}>
+            <Avatar sx={{ bgcolor: deepPurple[500], width: 40, height: 40 }}>
               <User />
             </Avatar>
             <div className="user-info">
-              <Typography variant="h5">Welcome, Musa Ibrahim</Typography>
-              <Typography variant="body1">Senior Producer, Hausa Department</Typography>
+              <Typography variant="h6">Welcome, Umma musa</Typography>
+              <Typography variant="body3">Senior Producer, Hausa Department</Typography>
             </div>
           </Box>
         </CardContent>
